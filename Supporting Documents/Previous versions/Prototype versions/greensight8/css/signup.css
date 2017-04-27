@@ -1,0 +1,58 @@
+input.error {
+	border:2px solid red;
+}
+
+#joinup .required,#edit_profile .required {
+	color:red;
+}
+
+#joinup,#edit_profile {
+	font-family:Helvetica;
+	font-size:10pt;
+}
+
+#joinup label,#edit_profile label {
+	width:10em;
+	float:left;
+}
+
+#joinup label.error,#edit_profile label.error {
+	float:none;
+	color:red;
+	padding-left:.5em;
+	vertical-align:top;
+}
+
+#joinup p,#edit_profile p {
+	clear:both;
+}
+
+#joinup .submit,#edit_profile .submit {
+	margin-left:17em;
+}
+
+#joinup em,#edit_profile em {
+	font-weight:700;
+	padding-right:1em;
+	vertical-align:top;
+}
+
+#left {
+	width:49%;
+	clear:both;
+}
+
+#right {
+	width:49%;
+}
+
+.rules {
+	text-align:justify;
+}
+
+#result {
+	display:none;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}

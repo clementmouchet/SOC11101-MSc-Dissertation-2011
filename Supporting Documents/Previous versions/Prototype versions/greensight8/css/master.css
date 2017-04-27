@@ -1,0 +1,198 @@
+/* DEBUG */
+* {
+/*border: 1px solid black;*/
+}
+
+/* STYLE LIBRARY */
+/* CSS 3 > Every recent browser but IE < v.9 */
+/* http://www.css3.info/preview/ */
+/* .shadow {
+	-moz-box-shadow: 3px 3px 4px #999;
+	-webkit-box-shadow: 3px 3px 4px #999;
+	box-shadow: 3px 3px 4px #ccc
+} */
+/* .opacity {
+	opacity: .9;
+	filter: alpha(opacity=90)
+} */
+.corners {
+	background-color:#fff;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	-khtml-border-radius:7px;
+	border-radius:7px;
+}
+
+/* CSS 2.1 */
+.shadow {
+	border:3px solid #999;
+}
+
+.margin {
+	margin-top:.5em;
+	margin-right:.5em;
+	margin-left:.5em;
+}
+
+.centered {
+	text-align:center;
+}
+
+/* OTHER RULES */
+.topbtn {
+	width:100%;
+	float:right;
+	font-weight:700;
+	font-size:8pt;
+	cursor:pointer;
+	text-decoration:none;
+	text-transform:uppercase;
+	display:none;
+	text-align:center;
+}
+
+/*ELEMENTS STRUCTURE*/
+/* BODY STRUCTURE */
+html,body {
+	height:100%;
+	font-family:Helvetica, Arial;
+	background:#C7C8C7 url(../images/grad.png) repeat-x fixed bottom left;
+	/*background: #ddd url('../images/grad.png') repeat-x fixed bottom left;*/
+}
+
+p, td, tr {
+	font-size:11pt;
+}
+
+body .wrapper {
+	min-height:100%;
+	height:auto!important;
+	height:100%;
+	margin:-.5em 0 -2.5em;
+}
+h1 { 
+  text-shadow: 3px 3px 3px #999; 
+}
+h2 { 
+  text-shadow: 1px 1px 1px #999; 
+}
+h3 { 
+  text-shadow: 1px 1px 1px #999; 
+}
+h4 { 
+  text-shadow: 1px 1px 1px #ddd; 
+}
+
+
+/* HEADER */
+#header {
+	position:relative;
+	width:90%;
+	min-width:65em;
+	max-width:65em;
+	height:120px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top-style: none;
+	background:#ddd;
+	-moz-border-bottom-left-radius:10px;
+	-moz-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+#heading {
+	position:absolute;
+	top:-0.3em;
+	left:0em;
+}
+
+.headlogo {
+	z-index:4;
+	width:12em;
+	position:absolute;
+	right:-2em;
+	top:.5em;
+}
+
+/* NAVBAR */
+#navigation {
+	position:relative;
+	min-width:65em;
+	max-width:65em;
+	width:90%;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:3;
+}
+
+/* MAIN */
+#main {
+	z-index:0;
+	position:relative;
+	min-width:65em;
+	max-width:65em;
+	display:block;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* GLOBAL LINK STYLE RULES*/
+#main a {
+	color:#49443B;
+}
+
+#main .grow a:hover {
+	color:#930;
+	font-size:110%;
+}
+
+#main a:hover {
+	color:#930;
+}
+
+/* POSITIONING LEFT & RIGHT*/
+#left,#top_left,#bottom_left {
+	float:left;
+	background-attachment:fixed;
+	position:relative;
+}
+
+#top_left {
+	height:auto;
+}
+
+#bottom_left {
+	height:auto;
+}
+
+#right {
+	float:right;
+	position:relative;
+}
+
+/* FOOTER */
+#footerp {
+	margin-left:auto;
+	margin-right:auto;
+	color:#FFF;
+	text-align:center;
+	font:normal 12px Helvetica, Arial;
+}
+
+.footer,.push {
+	min-width:60em;
+	max-width:70em;
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+	height:1.5em;
+}
+
+
+

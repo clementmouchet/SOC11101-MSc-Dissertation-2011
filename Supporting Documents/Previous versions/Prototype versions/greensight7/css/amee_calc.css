@@ -1,0 +1,26 @@
+#left {
+	width: 18%;
+}
+
+#top_left {
+	width: 100%;
+	margin-bottom: 1em;
+	background-color: #fff;
+}
+
+
+#right {
+	width: 81%;
+	margin-bottom: 1%;
+}
+	
+#top_right {
+	margin-left: 1%;
+	overflow: auto;
+}
+#bottom_right {
+	margin-top: 1em;
+	min-height:27em;
+	margin-left: 1%;
+	position: relative;
+}

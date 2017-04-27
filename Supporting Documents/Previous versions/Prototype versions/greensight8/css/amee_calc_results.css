@@ -1,0 +1,105 @@
+#right {
+width: 100%;
+margin-bottom: 1%;
+}
+	
+#top_right {
+height:auto;
+
+}
+
+#bottom_right {
+margin-top: 1em;
+position: relative;
+}
+
+#chartAll {
+	width:98%;
+	height:auto;
+	margin: 1%;
+}
+
+#chartCategory {
+	width:87%;
+	height:auto;
+	margin: 1%;
+}
+
+.jqplot-table-legend {
+	width:10%;
+}
+
+#chartbtns {
+	width:25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: .5em;
+}
+
+#middle_right {
+	display: none;
+	margin-top: 1em;
+}
+
+table {
+	width:100%;
+}
+th {
+	text-align: left;
+	height: 2em;
+	background-color: #DDD;
+	font-size: 95%;
+	border-bottom: 1px dotted #999
+	
+}
+td {
+	font-size: 95%;
+}
+
+#qty {
+	width:3em;
+	text-align: center;
+}
+
+#amount {
+	width:5em;
+	text-align: center;
+}
+
+#unit, #perunit {
+	width:3em;
+}
+
+#avg {
+	width:2em;
+	text-align: center;
+}
+
+tr.alt td {
+	background-color: #eee;
+}
+
+tr.over td {
+	background-color: #C7C8C7;
+	font-weight: bold;
+	border-bottom: 2px solid #47ADC0;
+	border-top: 2px solid #47ADC0;
+}
+
+td:first-child {
+	width: 3em;
+}
+
+td+td {
+	height: 1.7em;
+}
+#totalfootprint {
+	margin-top: 0.5em;
+	float: right;
+	height: 2em;
+	min-width:6em;
+}
+#ptotal{
+	text-align: center;
+	margin: 0.5em;
+}

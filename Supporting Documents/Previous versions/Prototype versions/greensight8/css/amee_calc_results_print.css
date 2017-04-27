@@ -1,0 +1,67 @@
+@media print {
+	#header, #navigation { display: none; }
+	#right { display: block; }
+}
+
+#right {
+width: 100%;
+margin-bottom: 1%;
+}
+	
+#top_right {
+height:auto;
+
+}
+#bottom_right {
+margin-top: 1em;
+position: relative;
+}
+
+table {
+	width:100%;
+}
+th {
+	text-align: left;
+	height: 2em;
+	background-color: #eee;
+	font-size: 95%;
+	border-bottom: 1px dotted #999
+	
+}
+
+#qty {
+	width:3em;
+	text-align: center;
+}
+
+#amount {
+	width:5em;
+	text-align: center;
+}
+
+#unit, #perunit {
+	width:3em;
+}
+#avg {
+	width:2em;
+	text-align: center;
+}
+
+tr.white th.white {
+	background-color: transparent
+}
+
+tr.grey th {
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc
+}
+
+td:first-child {
+	width: 3em;
+	border-bottom: 1px dotted #999
+}
+
+td+td {
+	height: 1.7em;
+	border-bottom: 1px dotted #999
+}

@@ -1,0 +1,140 @@
+#left {
+width: 18%;
+}
+
+#top_left {
+width: 100%;
+margin-bottom: 1em;
+background-color: #fff;
+}
+
+#bottom_left {
+width: 100%;
+margin-bottom: 1em;
+background-color: #fff;
+}
+
+.compare {
+	width:90%;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#right {
+width: 81%;
+margin-bottom: 1%;
+}
+	
+#top_right {
+margin-left: 1%;
+min-height: 11em;
+height:auto;
+
+}
+#bottom_right {
+margin-top: 1em;
+margin-left: 1%;
+position: relative;
+}
+
+
+
+#listOfBaskets {
+margin: 1%;
+width:98%;
+}
+.basketDesc {
+	padding-left: .2em;
+}
+
+select {
+	display: block;
+	margin-bottom: .5em;
+	font-size: 0.75em;
+	max-width:35em;
+}
+
+#dcalclulator {
+margin-top: 1em;
+margin-right: 1em;
+margin-left: 1em;
+margin-bottom: 1em;
+}
+
+#reset, #submit {
+	font-size: 0.75em;
+}
+
+#dsrc_details {
+	position: absolute;
+	background-color: #DDDDDD;
+	border: 2px solid #999;
+	top:1em;
+	bottom:auto+2em;
+	right:1em;
+	height:auto;
+	width:21em;
+}
+
+#data_src_details {
+	margin: .5em;
+}
+
+table {
+	width:100%;
+}
+th {
+	text-align: left;
+	height: 2em;
+	background-color: #eee;
+	font-size: 95%;
+	border-bottom: 1px dotted #999
+	
+}
+
+#qty {
+	width:3em;
+	text-align: center;
+}
+
+#amount {
+	width:5em;
+	text-align: center;
+}
+
+#unit, #perunit {
+	width:3em;
+}
+#edit {
+	width:2em;
+	text-align: center;
+}
+
+tr.white th.white {
+	background-color: transparent
+}
+
+tr.grey th {
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc
+}
+
+td:first-child {
+	width: 3em;
+	border-bottom: 1px dotted #999
+}
+
+td+td {
+	height: 1.7em;
+	border-bottom: 1px dotted #999
+}
+.bottom_right_btns {
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	display: block;
+	float: right;
+	font-size: 10pt;
+}
