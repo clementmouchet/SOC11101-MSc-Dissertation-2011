@@ -1,0 +1,4 @@
+[submodule "Final Prototype"]
+	path = Final Prototype
+	url = git@github.com:clementmouchet/greensight.git
+	branch = master
